@@ -1,19 +1,23 @@
 {
+  "name": "sc-operation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon dest/index.js",
+    "start": "tsc && node dest/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^5.0.2"
+  },
   "dependencies": {
+    "dotenv": "^16.5.0",
     "express": "^5.1.0",
     "mysql2": "^3.14.1",
     "sequelize": "^6.37.7"
-  },
-  "devDependencies": {
-    "sequelize-cli": "^6.6.3"
-  },
-  "name": "sc-operation",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
-  "description": ""
+  }
 }
